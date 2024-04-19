@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 
 interface SearchInputProps {
   icon: string;
@@ -28,7 +29,7 @@ const Header: React.FC = () => {
       />
       <div className="flex gap-0 self-stretch my-auto text-base text-right text-blue-600">
         <div className="grow my-auto">
-          <span className="text-zinc-800">Create account. </span>
+          <Link to={"signup"}><span className="text-zinc-800">Create account. </span></Link>
           <span className="font-bold text-blue-600">It's free!</span>
         </div>
         <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/599adac2e5c01a1005c41b85e90850d581d9ccabed4aa883da3d5907c0123223?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 w-6 aspect-square" />
