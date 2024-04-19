@@ -21,7 +21,7 @@ const SocialButton: React.FC<SocialButtonProps> = ({ icon, text }) => {
     <div className="flex gap-2.5 px-20 py-3 mt-3 text-black bg-white rounded-sm border border-solid border-zinc-300 leading-[123%]">
       <img src={icon} alt="" className="shrink-0 w-4 aspect-square" />
       <div className="flex-auto">{text}</div>
-    </div>
+    </div>  
   );
 };
 
@@ -30,7 +30,7 @@ const MbSignup: React.FC = () => {
     <div className="flex flex-col justify-center text-sm bg-white max-w-[360px]">
       <div className="flex flex-col  w-full bg-neutral-100">
         <Mbheader imageUrl={"src/assets/Group 3.png"}/>
-        <MbImg imageSrc={"src/assets/Rectangle 2 (1).png"} />
+        <MbImg imageSrc={"/assets/Rectangle 2 (1).png"} />
         <div className="flex flex-col px-5 py-5  w-full bg-white rounded-lg shadow-lg">
           <header className="flex gap-5 text-lg font-bold text-black">
             <h1 className="flex-auto my-auto">Create Account</h1>

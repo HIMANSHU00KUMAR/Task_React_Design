@@ -1,7 +1,7 @@
 
 
 interface MyComponentProps {
-    imageSrc: "src/assets/Rectangle 2 (1).png";
+    imageSrc: "/assets/Rectangle 2 (1).png";
     imageAlt: "HomelaptopImg";
 }
 

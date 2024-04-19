@@ -8,13 +8,13 @@ import UserLoggedinPage from './pages/UserLoggedinPage';
 const App = () => {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<HomePage />} /> {/* Cities table route */}
-      <Route path="/signup" element={<SignUpPage/>} />
-      <Route path="/signin" element={<SignInPage/>} />
-      <Route path="/userloged" element={<UserLoggedinPage/>} />
-    </Routes>
-  </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} /> {/* Cities table route */}
+        <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/signin" element={<SignInPage />} />
+        <Route path="/userloged" element={<UserLoggedinPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
