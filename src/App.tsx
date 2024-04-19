@@ -1,21 +1,18 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomePage from "./pages/HomePage"
-import SignUpPage from "./pages/SignUpPage"
-import SignInPage from './pages/SignInPage';
-import UserLoggedinPage from './pages/UserLoggedinPage';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from "./pages/HomePage.tsx"
+import SignUpPage from "./pages/SignUpPage.tsx"
+import SignInPage from './pages/SignInPage.tsx';
+import UserLoggedinPage from './pages/UserLoggedinPage.tsx';
 
 
-const App = () => {
+export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} /> {/* Cities table route */}
-        <Route path="/signup" element={<SignUpPage />} />
-        <Route path="/signin" element={<SignInPage />} />
-        <Route path="/userloged" element={<UserLoggedinPage />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomePage />} /> {/* Cities table route */}
+      <Route path="/signup" element={<SignUpPage />} />
+      <Route path="/signin" element={<SignInPage />} />
+      <Route path="/userloged" element={<UserLoggedinPage />} />
+    </Routes>
   )
 }
 
-export default App
