@@ -28,7 +28,7 @@ const MbSignin: React.FC = () => {
   return (
     <div className="flex flex-col justify-center text-sm bg-white max-w-[360px]">
       <div className="flex flex-col  w-full ">
-      <Mbheader imageUrl={"src/assets/Group 3.png"}/>
+      <Mbheader imageUrl={"dist/assets/Group 3.png"}/>
         <MbImg imageSrc={"/assets/Rectangle 2 (1).png"} />
         <div className="flex flex-col px-5 pt-6 pb-20  w-full bg-white rounded-lg shadow-lg">
           <header className="flex gap-5 text-lg font-bold text-black">

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 
 interface ImageProps {
   src: string;
@@ -71,7 +72,7 @@ const users = [
 function DeskSignin() {
   return (
     <div className="flex flex-col justify-center bg-white">
-      <div className="flex flex-col w-full bg-black max-md:max-w-full">
+      <div className="flex flex-col w-full bg-gray-00 max-md:max-w-full">
         <header className="flex gap-5 justify-between items-center px-20 py-4 w-full font-medium bg-white shadow-sm max-md:flex-wrap max-md:px-5 max-md:max-w-full">
           <Image
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/f58d41d7b3edb94126920116a910caf38b327662c49e30fd109a207ef369d165?apiKey=240a3564ebc049d98414cf55e6ed763c&"
@@ -100,10 +101,10 @@ function DeskSignin() {
               <Text>Job</Text>
             </div>
             <div className="flex gap-4 text-base font-medium">
-              <div className="flex gap-1.5 px-2.5 py-2 bg-white rounded border border-solid border-zinc-400 text-zinc-500">
+              <Link to={"/userloged"}><div className="flex gap-1.5 px-2.5 py-2 bg-white rounded border border-solid border-zinc-400 text-zinc-500">
                 <Image src="https://cdn.builder.io/api/v1/image/assets/TEMP/852d94d3706f6cc3719acbd9ff28e06351eba2182a021ceab6dc97ee735cb810?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="Leave group icon" className="shrink-0 aspect-square w-[22px]" />
                 <Text>Leave Group</Text>
-              </div>
+              </div></Link>
               <div className="flex gap-1 text-black">
                 <div className="flex gap-1.5 px-2.5 py-2 bg-gray-100 rounded">
                   <Image src="https://cdn.builder.io/api/v1/image/assets/TEMP/b1a67092f84ff00b573bfe7659a80bbfb6e8c225c5723a4cb442812a04f40e52?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="Write post icon" className="shrink-0 aspect-square w-[22px]" />

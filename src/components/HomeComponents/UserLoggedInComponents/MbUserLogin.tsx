@@ -7,8 +7,8 @@ import Post from "../Post"
 const MbUserLogin = () => {
   return (
     <div className="flex flex-col justify-center text-sm bg-white max-w-[360px]">
-      <Mbheader imageUrl={"src/assets/Group 3.png"}/>
-      <MbImg imageSrc={"/assets/Rectangle 2 (1).png"}/>
+      <Mbheader imageUrl={"dist/assets/Group 3.png"}/>
+      <MbImg imageSrc={"dist/assets/Rectangle 2 (1).png"}/>
       <Label/>
       <Post/>
     </div>

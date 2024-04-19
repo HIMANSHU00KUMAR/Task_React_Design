@@ -8,7 +8,7 @@ interface InputGroupProps {
 }
 
 const InputGroup: React.FC<InputGroupProps> = ({ label, placeholder, icon }) => (
-  <div className="flex z-10 gap-5 py-px pr-20 pl-3 mt-8 w-full rounded-sm border border-solid bg-slate-50 border-zinc-300 max-md:pr-5">
+  <div className="flex z-10 gap-5 py-px pr-20 pl-3 mt-8 rounded-sm border border-solid bg-slate-50 border-zinc-300 max-md:pr-5">
     <div className="my-auto">{label}</div>
     {icon && (
       <>

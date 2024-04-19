@@ -12,11 +12,11 @@ const HomePage = () => {
         <div>
             <div className="hidden md:block">
                 <Header />
-                <ImgHome imageSrc={"/assets/Rectangle 2 (1).png"} imageAlt={"HomelaptopImg"} />
+                <ImgHome imageSrc={"dist/assets/Rectangle 2 (1).png"} imageAlt={"HomelaptopImg"} />
             </div>
             <div className="flex flex-col md:hidden ">
-                <Mbheader imageUrl={"src/assets/Group 3.png"} />
-                <MbImg imageSrc={"/assets/Rectangle 2 (1).png"} />
+                <Mbheader imageUrl={"dist/assets/Group 3.png"} />
+                <MbImg imageSrc={"dist/assets/Rectangle 2 (1).png"} />
             </div>
 
 
