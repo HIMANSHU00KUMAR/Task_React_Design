@@ -28,7 +28,7 @@ const UserHeader: React.FC = () => {
       />
       <div className="flex  gap-0 self-stretch my-auto text-base text-right text-blue-600">
         <div className="grow my-auto">
-          <img  src="/assets/Rectangle 3 (4).png" alt=""  className="shrink-0 aspect-square w-[28px]"/>
+          <img  src="dist/assets/Rectangle 3 (4).png" alt=""  className="shrink-0 aspect-square w-[28px]"/>
         </div>
         <span className="font-bold text-sm text-black m-2">Siddharth Goyal</span>
         <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/599adac2e5c01a1005c41b85e90850d581d9ccabed4aa883da3d5907c0123223?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 w-6 aspect-square" />
