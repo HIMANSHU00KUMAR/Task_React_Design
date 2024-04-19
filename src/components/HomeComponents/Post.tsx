@@ -81,7 +81,7 @@ const MeetupCard: React.FC<MeetupCardProps> = ({
       <div className="flex flex-col px-5 mt-5 w-full max-md:max-w-full">
         <div className="text-lg text-black max-md:max-w-full">
           <span className="font-medium">🗓️</span>
-          <span className="font-medium"> Meetu</span>p
+          <span className="font-medium"> Meetup</span>
         </div>
         <div className="flex gap-5 mt-3 text-2xl font-semibold text-black max-md:flex-wrap max-md:max-w-full">
           <div className="flex-auto my-auto max-md:max-w-full">{title}</div>
@@ -201,37 +201,37 @@ const JobCard: React.FC<JobCardProps> = ({
 
 const articleData = [
   {
-    imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/e0849817d4063b1b9cb2e8673bcce2a49b5b51f3fabfa40fbb49b2413709d2be?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+    imageSrc: "/dist/assets/Rectangle 5 (2).png",
     articleType: "✍️ Article",
     title: "What if famous brands had regular fonts? Meet RegulaBrands!",
     description: "I've worked in UX for the better part of a decade. From now on, I plan to rei…",
-    authorImageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/41f7aabd845445396ba28ffbb05023cd62b218efcebc6f66f9cf902c36384870?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+    authorImageSrc: "/dist/assets/Rectangle 3 (1).png",
     authorName: "Sarthak Kamra",
     views: "1.4k views",
-    shareImageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/188dd45a0bf21fbea31dd7ee10742d9f2920b1f445fdc20f2e44ebd49e0d3cd4?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+    shareImageSrc: "/dist/assets/share.png",
   },
   {
-    imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/f25026b25bef222fe1adb43d575ca7025c667a7cc98305e5d028d55ae4603491?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+    imageSrc: "/dist/assets/Rectangle 5 (3).png",
     articleType: "🔬️ Education",
     title: "Tax Benefits for Investment under National Pension Scheme launched by Government",
     description: "I've worked in UX for the better part of a decade. From now on, I plan to rei…",
-    authorImageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/7ec84fbb753ed7f4e0d874102933001776d127767fbe8f49a15774a3bc7ae7ec?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+    authorImageSrc: "/dist/assets/Rectangle 3 (2).png",
     authorName: "Sarah West",
     views: "1.4k views",
-    shareImageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/0e889c5fb30a87f92ba6c00e01e087a32eeeff9eea4b3b6b441c5fa6399fd657?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+    shareImageSrc: "/dist/assets/share.png",
   },
 ];
 
 const meetupData = {
-  imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/4866fe4683fb94d88b03681cbed0bc561655dc556ca4bcd7bc2ae34d86461691?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+  imageSrc: "/dist/assets/Rectangle 5 (4).png",
   title: "Finance & Investment Elite Social Mixer @Lujiazui",
   date: "Fri, 12 Oct, 2018",
   location: "Ahmedabad, India",
   websiteUrl: "#",
-  authorImageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/6eb4d50c40ce6ffe7427a8ea85317f35ea2598f00f714713471047423ff69914?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+  authorImageSrc: "/dist/assets/Rectangle 3 (3).png",
   authorName: "Ronal Jones",
   views: "1.4k views",
-  shareImageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/374bb231fb33d8d29203db5810999cbd914022683a644692e23ae4eeff18fc8b?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+  shareImageSrc: "/dist/assets/share.png",
 };
 
 const jobData = {
@@ -239,10 +239,10 @@ const jobData = {
   company: "Innovaccer Analytics Private Ltd.",
   location: "Noida, India",
   applyUrl: "#",
-  authorImageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/4c9e5c51aa3a5dd268966782bf33b0b76cf8a81c05da465148f10efceee80a6e?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+  authorImageSrc: "/dist/assets/Rectangle 3 (4).png",
   authorName: "Joseph Gray",
   views: "1.4k views",
-  shareImageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/24c2eb105e8252b7edaddefe178da66d2cc23b4928574958770aa0be5277fa8f?apiKey=240a3564ebc049d98414cf55e6ed763c&",
+  shareImageSrc: "/dist/assets/share.png",
 };
 
 function Post() {
