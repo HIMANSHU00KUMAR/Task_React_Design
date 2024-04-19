@@ -31,28 +31,28 @@ const UserRight = () => {
                 <span>RECOMMENDED GROUPS</span>
                 <div className="flex mt-5 ">
                     <div className="flex gap-3">
-                        <img src="/assets/Rectangle 6.png" alt="" className="shrink-0 aspect-square w-[28px]" />
+                        <img src="dist/assets/Rectangle 6.png" alt="" className="shrink-0 aspect-square w-[28px]" />
                         <span className="font-semibold">Leisure</span>
                     </div>
                     <span className="bg-black rounded-2xl max-w-[700px] min-h-[24px] text-white text-sm py-1 px-7 ml-14">Followed</span>
                 </div>
                 <div className="flex  mt-5">
                     <div className="flex gap-3">
-                        <img src="/assets/Rectangle 6 (1).png" alt="" className="shrink-0 aspect-square w-[28px]" />
+                        <img src="dist/assets/Rectangle 6 (1).png" alt="" className="shrink-0 aspect-square w-[28px]" />
                         <span className="font-semibold">Activism</span>
                     </div>
                     <span className="bg-gray-300 rounded-2xl max-w-[700px] min-h-[24px] text-black text-sm py-1 px-7 ml-14">Follow</span>
                 </div>
                 <div className="flex  mt-5">
                     <div className="flex gap-3">
-                        <img src="/assets/Rectangle 6 (2).png" alt="" className="shrink-0 aspect-square w-[28px]" />
+                        <img src="dist/assets/Rectangle 6 (2).png" alt="" className="shrink-0 aspect-square w-[28px]" />
                         <span className="font-semibold">MBA</span>
                     </div>
                     <span className="bg-gray-300 rounded-2xl max-w-[700px] min-h-[24px] text-black text-sm py-1 px-7 ml-20">Follow</span>
                 </div>
                 <div className="flex  mt-5 mb-10">
                     <div className="flex gap-3">
-                        <img src="/assets/Rectangle 6 (3).png" alt="" className="shrink-0 aspect-square w-[28px]" />
+                        <img src="dist/assets/Rectangle 6 (3).png" alt="" className="shrink-0 aspect-square w-[28px]" />
                         <span className="font-semibold">Philosophy</span>
                     </div>
                     <span className="bg-gray-300 rounded-2xl max-w-[700px] min-h-[24px] text-black text-sm py-1 px-7 ml-10">Follow</span>
