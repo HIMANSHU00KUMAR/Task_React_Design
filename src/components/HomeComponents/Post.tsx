@@ -31,7 +31,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
         </div>
         <div className="flex gap-5 mt-4 text-2xl font-semibold leading-8 text-black max-md:flex-wrap max-md:max-w-full">
           <div className="flex-auto max-md:max-w-full">{title}</div>
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f9d3e20b0d8a804f96af0dae2ad3d31d7bce47cc94da6eef6002af6fc5c2ae2c?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 self-start w-7 aspect-square" />
+          <img src="/dist/icon/action/dot.png" alt="" className="shrink-0 self-start w-7 aspect-square" />
         </div>
         <div className="mt-5 text-xl leading-6 text-zinc-600 max-md:max-w-full">{description}</div>
         <div className="flex gap-5 mt-8 w-full max-md:flex-wrap max-md:max-w-full">
@@ -41,7 +41,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({
           </div>
           <div className="flex flex-1 gap-5 justify-between my-auto text-sm font-medium text-right text-neutral-600">
             <div className="flex gap-2.5 my-auto">
-              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/796f69616be18969b044e18aab72a37e4916680cdffae7fdc99465e6a9f5fa67?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 aspect-square w-[18px]" />
+              <img src="/dist/icon/action/eye.png" alt="" className="shrink-0 aspect-square w-[18px]" />
               <div className="my-auto">{views}</div>
             </div>
             <img src={shareImageSrc} alt="Share" className="shrink-0 aspect-[1.16] w-[42px]" />
@@ -85,7 +85,7 @@ const MeetupCard: React.FC<MeetupCardProps> = ({
         </div>
         <div className="flex gap-5 mt-3 text-2xl font-semibold text-black max-md:flex-wrap max-md:max-w-full">
           <div className="flex-auto my-auto max-md:max-w-full">{title}</div>
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/54366b0d95e10f721859dcb24aab562f9bf8aea1273644e25bcbbc1c46b3f24b?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 w-9 aspect-[1.12] fill-stone-300" />
+          <img src="/dist/icon/action/dot.png" alt="" className="shrink-0 self-start w-7 aspect-square" />
         </div>
         <div className="mt-1 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
@@ -93,11 +93,11 @@ const MeetupCard: React.FC<MeetupCardProps> = ({
               <div className="flex flex-col mt-1.5 max-md:max-w-full">
                 <div className="flex gap-5 max-w-full text-base font-medium text-black w-[356px]">
                   <div className="flex flex-1 gap-1">
-                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/69de05e9d0bb0c54c8e790b2cbf9aefc4949446bb6a886ff5547b86a00449f4a?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 w-5 aspect-square" />
+                    <img src="/dist/icon/action/date.png" alt="" className="shrink-0 w-5 aspect-square" />
                     <div className="flex-auto my-auto">{date}</div>
                   </div>
                   <div className="flex flex-1 gap-1">
-                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4cf2cd8434f484c53598f5a3ed8f10a45f491cb012b1714b30a513b39107d956?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 w-5 aspect-square" />
+                    <img src="/dist/icon/action/location.png" alt="" className="shrink-0 w-5 aspect-square" />
                     <div className="flex-auto my-auto">{location}</div>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const MeetupCard: React.FC<MeetupCardProps> = ({
           </div>
           <div className="flex flex-1 gap-5 justify-between my-auto text-sm font-medium text-right text-neutral-600">
             <div className="flex gap-2.5 my-auto">
-              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/796f69616be18969b044e18aab72a37e4916680cdffae7fdc99465e6a9f5fa67?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 aspect-square w-[18px]" />
+              <img src="/dist/icon/action/eye.png" alt="" className="shrink-0 aspect-square w-[18px]" />
               <div className="my-auto">{views}</div>
             </div>
             <img src={shareImageSrc} alt="Share" className="shrink-0 aspect-[1.16] w-[42px]" />
@@ -165,16 +165,16 @@ const JobCard: React.FC<JobCardProps> = ({
             <div className="text-lg">💼️ Job</div>
             <div className="mt-6 text-2xl font-semibold leading-7">{title}</div>
             <div className="flex gap-1 mt-4 text-base">
-              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/83f49b45ae00b566637caa705599e98d57c8b48a972eb8187eca86deb4108b34?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 w-5 aspect-square" />
+              <img src="/dist/icon/action/bag.png" alt="" className="shrink-0 w-5 aspect-square" />
               <div className="flex-auto my-auto">{company}</div>
             </div>
           </div>
           <div className="flex gap-1 self-end mt-20 text-base max-md:mt-10">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/aa645a886df50216799fe8bd175305f37d9e0d4653b737f7d9ff49b5a81a6d94?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 w-5 aspect-square" />
+            <img src="/dist/icon/action/location.png" alt="" className="shrink-0 w-5 aspect-square" />
             <div className="my-auto">{location}</div>
           </div>
         </div>
-        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d8ae23a941f92f795180358e2986140b950109df6e9c2edca8d243759b33e4b9?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 my-auto w-7 aspect-square" />
+        <img src="/dist/icon/action/dot.png" alt="" className="shrink-0 my-auto w-7 aspect-square" />
       </div>
       <a
         href={applyUrl}
@@ -189,7 +189,7 @@ const JobCard: React.FC<JobCardProps> = ({
         </div>
         <div className="flex flex-1 gap-5 justify-between my-auto text-sm font-medium text-right text-neutral-600">
           <div className="flex gap-2.5 my-auto">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/796f69616be18969b044e18aab72a37e4916680cdffae7fdc99465e6a9f5fa67?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 aspect-square w-[18px]" />
+            <img src="/dist/icon/action/eye.png" alt="" className="shrink-0 aspect-square w-[18px]" />
             <div className="my-auto">{views}</div>
           </div>
           <img src={shareImageSrc} alt="Share" className="shrink-0 aspect-[1.16] w-[42px]" />
