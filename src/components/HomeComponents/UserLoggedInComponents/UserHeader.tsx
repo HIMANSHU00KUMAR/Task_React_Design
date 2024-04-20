@@ -18,12 +18,12 @@ const UserHeader: React.FC = () => {
   return (
     <header className="flex gap-5 justify-between items-center px-20 py-4 font-medium bg-white shadow-sm max-md:flex-wrap max-md:px-5 ">
       <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/18dfc9c3aa3114a0e0385d7dcf110f2c521429a580ce8cb639399ac20bca5ec1?apiKey=240a3564ebc049d98414cf55e6ed763c&"
+        src="/dist/assets/whole.png"
         alt="Company logo"
         className="shrink-0 self-stretch my-auto max-w-full aspect-[6.67] w-[163px]"
       />
       <SearchInput
-        icon="https://cdn.builder.io/api/v1/image/assets/TEMP/e7ff6d9700f3a724b9f912b0cf80e51d26afeb7f68ca09c78c3370b7d6e942ed?apiKey=240a3564ebc049d98414cf55e6ed763c&"
+        icon="/dist/icon/action/search.png"
         placeholder="Search for your favorite groups in ATG"
       />
       <div className="flex  gap-0 self-stretch my-auto text-base text-right text-blue-600">
@@ -31,7 +31,7 @@ const UserHeader: React.FC = () => {
           <img  src="dist/assets/Rectangle 3 (4).png" alt=""  className="shrink-0 aspect-square w-[28px]"/>
         </div>
         <span className="font-bold text-sm text-black m-2">Siddharth Goyal</span>
-        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/599adac2e5c01a1005c41b85e90850d581d9ccabed4aa883da3d5907c0123223?apiKey=240a3564ebc049d98414cf55e6ed763c&" alt="" className="shrink-0 w-6 aspect-square" />
+        <img src="/dist/icon/action/arrowdown.png" alt="" className="shrink-0 w-6 aspect-square" />
       </div>
     </header>
   );

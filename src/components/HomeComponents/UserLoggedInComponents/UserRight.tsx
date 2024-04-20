@@ -11,7 +11,7 @@ const UserRight = () => {
                     <span className="shrink-0 aspect-square w-[22px]"><FontAwesomeIcon icon={faCaretDown} /></span>
                 </button>
                 <button className="flex gap-1.5 px-2.5 py-2 text-base font-medium text-gray-400 bg-gray-100 rounded">
-                    <img src={"https://cdn.builder.io/api/v1/image/assets/TEMP/077819701e1a7be01d1bd1a07105206b58784da22e2d99f4e5334a96fb3d2b13?apiKey=240a3564ebc049d98414cf55e6ed763c&"} alt="" className="shrink-0 aspect-square w-[22px]" />
+                    <img src={"public/dist/icon/action/exit.png"} alt="" className="shrink-0 aspect-square w-[22px]" />
                     Leave Group
                 </button>
             </div>

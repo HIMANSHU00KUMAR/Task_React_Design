@@ -10,7 +10,7 @@ const RightCard = () => {
                 <span className="shrink-0 aspect-square w-[22px]"><FontAwesomeIcon icon={faCaretDown} /></span>
             </button>
             <button className="flex gap-1.5 px-2.5 py-2 text-base font-medium text-white bg-blue-600 rounded">
-                <img src={"https://cdn.builder.io/api/v1/image/assets/TEMP/077819701e1a7be01d1bd1a07105206b58784da22e2d99f4e5334a96fb3d2b13?apiKey=240a3564ebc049d98414cf55e6ed763c&"} alt="" className="shrink-0 aspect-square w-[22px]" />
+                <img src={"/dist/icon/action/baseline-group_add-24px (1).png"} alt="" className="shrink-0 aspect-square w-[22px] bg-white" />
                 Join Group
             </button>
         </div>

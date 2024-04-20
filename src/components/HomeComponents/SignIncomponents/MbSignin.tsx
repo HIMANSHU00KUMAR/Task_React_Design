@@ -35,7 +35,7 @@ const MbSignin: React.FC = () => {
             <h1 className="flex-auto my-auto">Welcome back!</h1>
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/704c0fe50ef217c1f94e5f57bf18007a588d74d2767d54c4f67ec37208adf606?apiKey=240a3564ebc049d98414cf55e6ed763c&"
+              src="/dist/icon/action/cross.png"
               alt="Welcome back icon"
               className="shrink-0 w-6 aspect-square"
             />
@@ -62,7 +62,7 @@ const MbSignin: React.FC = () => {
               />
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/13f5a72f5c54389b99fcacc5851b3afc7213bfb427c2d3d0112d80f6b5d10e9c?apiKey=240a3564ebc049d98414cf55e6ed763c&"
+                src="public/dist/icon/action/eye.png"
                 alt="Password visibility toggle"
                 className="shrink-0 w-4 aspect-square"
               />
@@ -75,8 +75,8 @@ const MbSignin: React.FC = () => {
             </div>
           </form>
           <div className="mt-6 space-y-3">
-            <SocialSignInButton icon="https://cdn.builder.io/api/v1/image/assets/TEMP/ca3b0e2ce438ec302b97dfdbf2c83199eaec1133df6c9a0857ec981926049e5c?apiKey=240a3564ebc049d98414cf55e6ed763c&" text="Sign in with Facebook" />
-            <SocialSignInButton icon="https://cdn.builder.io/api/v1/image/assets/TEMP/40c01c0d21377a922d4479926eb34257d0520d7f0381a0a9d916065e3daee5b5?apiKey=240a3564ebc049d98414cf55e6ed763c&" text="Sign in with Google" />
+            <SocialSignInButton icon="/dist/icon/action/facebook.png" text="Sign in with Facebook" />
+            <SocialSignInButton icon="/dist/icon/action/google.png" text="Sign in with Google" />
           </div>
           <a href="#" className="self-center mt-7 mb-3 text-xs font-medium tracking-normal leading-4 text-center text-neutral-800">
             Forgot Password?
